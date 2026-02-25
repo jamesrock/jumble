@@ -13,7 +13,6 @@
   "dependencies": {
     "@capacitor/core": "latest",
     "@capacitor/ios": "latest",
-    "@capacitor/splash-screen": "latest",
     "@jamesrock/rockjs": "latest"
   },
   "devDependencies": {

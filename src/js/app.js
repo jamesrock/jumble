@@ -1,5 +1,4 @@
-import '../css/app.css';
-import { SplashScreen } from '@capacitor/splash-screen';
+import '/css/app.css';
 import { Storage, createNode, formatTime } from '@jamesrock/rockjs';
 import { KeyBoard } from './KeyBoard';
 import { isApp } from './utils';
@@ -128,5 +127,3 @@ root.style.setProperty('--time-top', `${isApp ? 100 : 50}px`);
 start();
 
 document.addEventListener('touchstart', () => {}, false);
-
-SplashScreen.hide();
